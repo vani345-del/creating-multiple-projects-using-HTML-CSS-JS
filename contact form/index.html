@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+</head>
+<style>
+    body{
+        background-color: rgb(252, 248, 248);
+        padding: 0px 300px;
+        font-size: large;
+    }
+    div{
+        text-align: center;
+        border: 1px solid black;
+        margin:auto;
+        width:760px;
+        background-color: rgb(132, 246, 153);
+        color:white;
+        line-height: 20%;
+        border-radius: 5px;
+        
+    }
+    form{
+        border:1px solid black;
+        padding:30px;
+        width:600px;
+        border-radius: 5px;
+        padding: 0px 80px 5px;
+        height:
+    }
+    input[type="submit"] {
+    background-color: rgb(132, 246, 153);
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+  }
+  input[type="reset"]{
+    background-color: red;
+    color:white;
+    border-radius:5px;
+    font-size: larger;
+    border:none;
+
+  }
+  input[type="textarea"]{
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: 60px;
+  }
+
+</style>
+<body>
+    <div>
+        <h1>contact form</h1>
+        <p>please fill the text in the field</p>
+    </div>
+    <form action="">
+        <p>
+            Your Name:<br>
+            <input type="text" placeholder="your full name">
+        </p>
+        <p>
+            Your Email:<br>
+            <input type="Email" placeholder="Enter your email">
+        </p>
+        <p>
+            Your mobil number:<br>
+            <input type="text" placeholder="Enter your mobile number">
+        </p>
+          <p class="mass">
+            Your messasge to us:<br>
+            <input type="textarea" placeholder="enter your query here">
+        </p>
+        <p>
+            Select how you want updates:<br>
+            <select>
+                <option>--please choose one option</option>
+                <option>message</option>
+                <option>mobile</option>
+                <option>call</option>
+            </select>
+        </p>
+    
+    <input type="submit" value=Submit>  <input type="reset" value=Reset>
+</form>
+</body>
+</html>

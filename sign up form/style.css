@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+}
+.container
+{
+    background: url('natirem1.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    opacity: 3;
+    color:white;
+    z-index: 2;
+}
+
+.innerdata{
+    text-align: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size:60px;
+    margin-bottom: 60px;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 25px;
+    width: 800px;
+    margin-bottom: 40px;
+}
+
+.btn{
+   padding:8px 20px;
+   background-color: red;
+   color:white;
+   border: none;
+   font-family: sans-serif;
+   font-size:25px;
+   transform: 4s;
+   cursor: pointer;
+   
+}
+
+.modal-container{
+    background-color:rgba(0,0,0,0.6);
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    
+}
+.modal-content h1{
+   font-size: 25px;
+   
+}
+.modal{
+    background-color: white;
+    border-radius: 5px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    overflow: hidden;
+    font-size: 25px;
+    font-family:  sans-serif;
+    width:400px;
+    max-width: 100%;
+    transform: translate(-50%,-50%);
+ 
+}
+.modal-content{
+    padding:20px;
+}
+.modal-form div{
+    margin: 20px 0;
+}
+
+.modal-form label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.modal-form input{
+    padding: 8px;
+    width:100%;
+    font-size: 20px;
+
+}
+
+.close-btn{
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top:5px;
+    right:12px;
+    cursor: pointer;
+}
+
+.modal-container.show-model{
+    display: block;
+}

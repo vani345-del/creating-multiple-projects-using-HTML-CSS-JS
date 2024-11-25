@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(100, 32, 183);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height:100vh ;
+    font-family:sans-serif ;
+    overflow: hidden;
+    margin:0;
+
+}
+
+#insert{
+    background-color: white;
+    padding:100px;
+
+}
+.key{
+   
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(100, 32, 183);
+    display: inline-flex;
+    flex-direction: column;
+    padding:50px;
+    align-items: center;
+    border: 2px solid white;
+    color:white;
+    position:relative;
+}
+.key small{
+    position: absolute;
+    text-align: center;
+    color:#555;
+    top:-25px;
+    left:0;
+    width: 100%;
+    font-size: 14px;
+
+}
