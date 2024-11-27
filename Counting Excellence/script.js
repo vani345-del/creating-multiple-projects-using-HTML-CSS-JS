@@ -6,12 +6,6 @@ let save=document.querySelector('#save');
 
 let entries=document.querySelector('.entries-field');
 
-
-
-
-console.log(counter);
-console.log(save);
-
 let count=0;
 
 increment.addEventListener('click',()=>{

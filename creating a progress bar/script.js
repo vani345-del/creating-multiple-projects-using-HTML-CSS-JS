@@ -12,7 +12,6 @@ const circles=document.querySelectorAll('.circle')
 
  next.addEventListener('click',()=>{
     activeindex++;
-    console.log(activeindex);
     if(activeindex>circles.length){
         activeindex=circles.length;
     }
@@ -51,8 +50,8 @@ function update(){
             next.disabled=true;
         }
         else{
-            prev.disabled=flase;
-            next.disabled=flase;
+            prev.disabled=false;
+            next.disabled=false;
         }
 
 }
