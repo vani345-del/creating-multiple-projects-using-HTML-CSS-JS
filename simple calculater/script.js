@@ -2,6 +2,8 @@ document.getElementById('btn').addEventListener('click',()=>{
 
     let num1=document.querySelector(".num1").value;
     let num2=document.querySelector(".num2").value;
+    console.log(num1);
+    console.log(num2);
     let result=document.querySelector('.result');
     let operator=document.querySelector('#seleop').value;
 
